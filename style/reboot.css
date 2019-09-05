@@ -1,5 +1,5 @@
 .imageWhyStudy {
-    max-width: 250px;
+    max-width: 200px;
     width: 100%;
 }
 
@@ -8,4 +8,9 @@
     color: white;
     text-align: center;
     width: 100%;
+}
+
+video {
+    width: 100%;
+    margin-bottom: 32px;
 }
