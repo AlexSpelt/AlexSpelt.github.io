@@ -565,7 +565,7 @@ class EndScoreScreen extends GameScreen {
                     }
                 }
             });
-            xhr.open("GET", "https://alexspelt.nl:81/api/groomerGame/HighScoresList");
+            xhr.open("GET", "https://alexspelt.nl/api/groomerGame/HighScoresList");
             xhr.send();
         });
     }
@@ -585,7 +585,7 @@ class EndScoreScreen extends GameScreen {
                     }
                 }
             });
-            xhr.open("POST", "https://alexspelt.nl:81/api/groomerGame/NewHighscore");
+            xhr.open("POST", "https://alexspelt.nl/api/groomerGame/NewHighscore");
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhr.send(data);
         });
